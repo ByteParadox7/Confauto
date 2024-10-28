@@ -1,5 +1,5 @@
-echo -e "deb http://deb.debian.org/debian/ sid main contrib non-free" > /etc/apt/sources.list
-
+echo -e "deb http://deb.debian.org/debian/ sid main non-free non-free-firmware
+deb-src http://deb.debian.org/debian/ sid main non-free non-free-firmware" > /etc/apt/sources.list
 
 
 wget https://archive.kali.org/archive-key.asc -O kali-archive-key.asc
